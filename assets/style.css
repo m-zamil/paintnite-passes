@@ -427,6 +427,21 @@ h3.section__title {
 .works__animation--desktop {
   display: none;
 }
+.works__animation--mobile {
+  position: relative;
+}
+.anim__links {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.anim__links a {
+  height: 25%;
+  width: 100%;
+  display: block;
+}
 /* --The Fine Print-- */
 .fine {
   padding-top: 32px;
@@ -703,6 +718,16 @@ h3.section__title {
   }
   .works__animation--desktop {
     display: block;
+    position: relative;
+  }
+  .anim__links {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .anim__links a {
+    display: inline-block;
+    width: 50%;
+    height: 50%;
   }
   /* --Fine art-- */
   .fine {
