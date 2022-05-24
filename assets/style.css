@@ -62,10 +62,7 @@ a {
 img {
   max-width: 100%;
   border: none;
-  image-rendering: -moz-crisp-edges;
-  image-rendering: -o-crisp-edges;
   image-rendering: -webkit-optimize-contrast;
-  image-rendering: crisp-edges;
   -ms-interpolation-mode: nearest-neighbor;
 }
 
@@ -278,10 +275,7 @@ h3.section__title {
   right: 0;
   top: 50%;
   transform: translateY(-50%);
-  image-rendering: -moz-crisp-edges;
-  image-rendering: -o-crisp-edges;
   image-rendering: -webkit-optimize-contrast;
-  image-rendering: crisp-edges;
   -ms-interpolation-mode: nearest-neighbor;
 }
 .deal__offer {
