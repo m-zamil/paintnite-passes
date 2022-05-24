@@ -384,6 +384,7 @@ h3.section__title {
   margin-top: -25px;
   height: 210px;
   overflow-y: hidden;
+  overflow-x: hidden;
   pointer-events: none;
   position: relative;
   z-index: 2;
@@ -478,7 +479,6 @@ h3.section__title {
 .redeem {
   padding-bottom: 38px;
   position: relative;
-  overflow: clip;
   overflow: hidden;
 }
 .redeem .redeem__circle__anim {
