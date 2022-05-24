@@ -488,6 +488,10 @@ h3.section__title {
   bottom: -110px;
   pointer-events: none;
 }
+#greenCircleCont {
+  position: absolute;
+  top: 70px;
+}
 #greencirclePlayer {
   width: 200px;
   height: 200px;
@@ -756,6 +760,9 @@ h3.section__title {
   #greencirclePlayer {
     width: 300px;
     height: 300px;
+  }
+  #greenCircleCont {
+    top: 50%;
   }
   .redeem .redeem__circle__anim {
     left: -220px;
