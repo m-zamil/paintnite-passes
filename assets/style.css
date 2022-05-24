@@ -383,8 +383,7 @@ h3.section__title {
   text-align: right;
   margin-top: -25px;
   height: 210px;
-  overflow-y: hidden;
-  overflow-x: hidden;
+  overflow: initial;
   pointer-events: none;
   position: relative;
   z-index: 2;
@@ -621,8 +620,9 @@ h3.section__title {
 
   .tgfp {
     background: none;
-    margin-top: 140px;
+    margin-top: 120px;
     overflow-y: visible;
+    padding-top: 52px;
   }
   .tgfp .orange__circle__anim {
     transform: translateX(0);
@@ -632,7 +632,7 @@ h3.section__title {
     top: initial;
   }
   #orange__circleCont {
-    top: -100px;
+    top: -50px;
   }
   .tgfp__wrapper {
     display: flex;
@@ -657,7 +657,7 @@ h3.section__title {
   .tgfp__image {
     height: auto;
     text-align: left;
-    overflow-y: visible;
+    overflow: visible;
   }
   .tgfp__image img {
     width: auto;
@@ -667,6 +667,9 @@ h3.section__title {
     left: 7%;
     top: -35px;
     transform: initial;
+  }
+  .apron__anim > div {
+    overflow-y: visible;
   }
 
   /* --How passes work-- */
