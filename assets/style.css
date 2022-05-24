@@ -348,8 +348,7 @@ h3.section__title {
   background-color: var(--off-white);
   padding-top: 32px;
   position: relative;
-  overflow-y: clip;
-  overflow-x: clip;
+  overflow: hidden;
 }
 .tgfp .orange__circle__anim {
   position: absolute;
@@ -384,7 +383,7 @@ h3.section__title {
   text-align: right;
   margin-top: -25px;
   height: 210px;
-  overflow-y: clip;
+  overflow-y: hidden;
   pointer-events: none;
   position: relative;
   z-index: 2;
@@ -480,6 +479,7 @@ h3.section__title {
   padding-bottom: 38px;
   position: relative;
   overflow: clip;
+  overflow: hidden;
 }
 .redeem .redeem__circle__anim {
   position: absolute;
@@ -692,7 +692,7 @@ h3.section__title {
   }
   #worksAnimationPlay {
     position: absolute;
-    top: 0;
+    top: 87%;
     transform: translateY(-50%);
   }
   .works__animation--mobile {
