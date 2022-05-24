@@ -66,7 +66,7 @@ LottieInteractivity.create({
 LottieInteractivity.create({
   player: "#greencirclePlayer",
   mode: "scroll",
-  container: "#greencirclePlayer",
+  container: "#greenCircleCont",
   actions: [
     {
       visibility: [0, 1],
