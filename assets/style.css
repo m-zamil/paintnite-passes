@@ -173,7 +173,7 @@ h3.section__title {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  margin-bottom: 320px;
+  margin-bottom: 340px;
 }
 .hero .container {
   max-width: 470px;
@@ -311,6 +311,20 @@ h3.section__title {
 .deal__card--blue .deal__cta .primary__btn {
   background-color: var(--blue);
 }
+.deals__note {
+  margin-top: 16px;
+  text-align: center;
+}
+.deals__note p {
+  font-size: 12px;
+  line-height: 1.3;
+  text-align: center;
+  margin: 0;
+  color: black;
+}
+.deals__note a {
+  color: var(--pink);
+}
 @media (max-width: 430px) {
   .deal__subtitle {
     font-size: 12px;
@@ -343,6 +357,7 @@ h3.section__title {
   padding-top: 32px;
   position: relative;
   overflow: hidden;
+  pointer-events: none;
 }
 .tgfp .orange__circle__anim {
   position: absolute;
@@ -625,6 +640,12 @@ h3.section__title {
     font-size: 16px;
     padding: 10px 18px;
   }
+  .deals__note {
+    display: flex;
+    justify-content: center;
+  }
+  .deals__note p {
+  }
   /* --tgfp-- */
 
   .tgfp {
@@ -652,6 +673,9 @@ h3.section__title {
   .tgfp__content {
     order: 2;
     width: 55%;
+  }
+  .tgfp .section__title {
+    margin-top: 1.4em;
   }
   .tgfp .section__subtitle {
     max-width: 480px;
