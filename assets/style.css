@@ -673,6 +673,7 @@ h3.section__title {
   .tgfp__content {
     order: 2;
     width: 55%;
+    pointer-events: all;
   }
   .tgfp .section__title {
     margin-top: 1.4em;
