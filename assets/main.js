@@ -8,7 +8,7 @@ window.onload = function () {
         {
           visibility: [0, 1],
           type: "play",
-          frames: [25, 100],
+          frames: [25, 189],
         },
       ],
     });
@@ -21,7 +21,7 @@ window.onload = function () {
         {
           visibility: [0, 1],
           type: "play",
-          frames: [25, 100],
+          frames: [25, 189],
         },
       ],
     });
