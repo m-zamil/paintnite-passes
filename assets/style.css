@@ -200,6 +200,7 @@ h3.section__title {
   font-weight: bold;
   font-size: 14px;
   max-width: 195px;
+  max-width: 222px;
   position: absolute;
   top: calc(50% - 1px);
   right: -16px;
