@@ -481,6 +481,7 @@ h3.section__title {
   max-width: 370px;
   margin-left: auto;
   margin-right: auto;
+  font-weight: 400;
 }
 .fine__list li::before {
   content: "";
