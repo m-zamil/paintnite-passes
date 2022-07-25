@@ -8,7 +8,7 @@ window.onload = function () {
         {
           visibility: [0, 1],
           type: "play",
-          frames: [0, 189],
+          frames: [25, 100],
         },
       ],
     });
