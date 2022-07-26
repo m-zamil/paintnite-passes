@@ -200,7 +200,6 @@ h3.section__title {
   color: white;
   font-weight: bold;
   font-size: 14px;
-  max-width: 195px;
   max-width: 222px;
   position: absolute;
   top: calc(50% - 1px);
@@ -208,8 +207,7 @@ h3.section__title {
 }
 .hero__deals {
   position: absolute;
-  top: 100%;
-  top: calc(100% - 27px);
+  top: calc(100% - 32px);
   left: 0;
   right: 0;
 }
@@ -231,7 +229,7 @@ h3.section__title {
   text-align: center;
   background-color: #d4d2d1;
   border-radius: 12px 12px 0 0;
-  padding: 8px 0 4px;
+  padding: 8px 0 9px;
 }
 .deal__image {
   margin: 16px 0;
@@ -639,7 +637,7 @@ h3.section__title {
   }
   .deal__name {
     font-size: 30px;
-    padding: 14px 0 14px;
+    padding: 14px 0 10px;
     border-radius: 22px 22px 0 0;
   }
   .deal__cta .primary__btn {
